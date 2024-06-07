@@ -1,0 +1,58 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('ruta_de_la_imagen_de_fondo.jpg'); /* Agrega la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+.user-profile img.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.user-profile h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-profile p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.user-profile .stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.user-profile .stats p {
+    font-size: 18px;
+    color: #333;
+}
+
+.user-profile button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.user-profile button:hover {
+    background-color: #0056b3;
+}
